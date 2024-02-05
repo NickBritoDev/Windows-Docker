@@ -63,3 +63,6 @@ Teste conexão do docker:
 ```bash
  make up
 ```
+
+Se tudo acontecer como previsto teremos esse resultado final:
+![image](https://github.com/NickBritoDev/Windows-Docker/assets/101473345/c3c677d3-072c-4bcd-8a08-c7cfb854fc6f)
