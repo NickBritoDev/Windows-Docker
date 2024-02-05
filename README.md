@@ -14,7 +14,7 @@ Adcione a Libstdc++:
 Ela fornece implementações de classes e funções padrão da linguagem C++, como contêineres, algoritmos e manipulação de strings. (extremamente necessario para manipulação dos contêineres no docker )
 
 ```bash
-su
+ su
 ```
 
 ```bash
@@ -30,16 +30,16 @@ Adicione MakeFile:
 O Makefile e a ferramenta **`make`** são usados para automatizar o processo de compilação e construção de programas a partir do código-fonte. 
 
 ```bash
-su
-apk add make
+ su
+ apk add make
 ```
 
 Adicione o Git:
 O Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear alterações em projetos de software.
 
 ```bash
-su
-apk add git
+ su
+ apk add git
 ```
 
 Ativar uso de wsl no docker:
@@ -53,8 +53,8 @@ Crie um arquivo Makefile:
 
 ```makefile
 .PHONY: up
-up:
-	    docker run hello-world
+ up:
+	docker run hello-world
 ```
 
 Abra o terminal do projeto no alpine(wsl)
@@ -62,5 +62,5 @@ Abra o terminal do projeto no alpine(wsl)
 Teste conexão do docker:
 
 ```bash
-make up
+ make up
 ```
