@@ -53,8 +53,7 @@ Crie um arquivo Makefile:
 
 ```makefile
 .PHONY: up
- up:
-	docker run hello-world
+ up: docker run hello-world
 ```
 
 Abra o terminal do projeto no alpine(wsl)
